@@ -1,1 +1,1 @@
-# Learn-Python
+# Day Series of learning python from scrach.
