@@ -40,3 +40,25 @@ if  (a % 2 ==0):
     print(a,"is even number")
 else:
     print(a,"is odd number")
+
+# convert str into 
+str=input("enter a string: ")
+print(str.lower())
+print(str.upper())
+print(str.title())
+
+# replace a word in a sentence
+str= input("enter a string: ")
+replace_word=input("enter a word you replacing: ")
+replace_str=input("enter a word you replce with: ")
+
+updating_str=str.replace(replace_word, replace_str)
+
+print(updating_str)
+
+# find the longest word in a sentence
+sen= input("enter a sentense: ")
+words= sen.split()
+longest_word= max(words)
+print("the longest word is", longest_word)
+print("the longest word length is", len(longest_word))
